@@ -4,10 +4,7 @@
     <list default="true" id="d67e60ba-97d8-47fd-ae5a-5b5e762b6d0b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/aelion/java2012/javasyntax/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/aelion/java2012/javasyntax/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/fr/aelion/java2012/javasyntax/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/fr/aelion/java2012/javasyntax/CalculatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fr/aelion/java2012/javasyntax/Calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fr/aelion/java2012/javasyntax/Calculator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/fr/aelion/java2012/javasyntax/CalculatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/fr/aelion/java2012/javasyntax/CalculatorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/fr/aelion/java2012/javasyntax/LambdaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/fr/aelion/java2012/javasyntax/LambdaTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
