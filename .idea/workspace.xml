@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d67e60ba-97d8-47fd-ae5a-5b5e762b6d0b" name="Default Changelist" comment="" />
+    <list default="true" id="d67e60ba-97d8-47fd-ae5a-5b5e762b6d0b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/aelion/java2012/javasyntax/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/aelion/java2012/javasyntax/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/fr/aelion/java2012/javasyntax/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/fr/aelion/java2012/javasyntax/CalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fr/aelion/java2012/javasyntax/Calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fr/aelion/java2012/javasyntax/Calculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/fr/aelion/java2012/javasyntax/CalculatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/fr/aelion/java2012/javasyntax/CalculatorTest.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,6 +18,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -26,6 +34,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1lNN3e6rK71wUAdLj6SkTRd3Syb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -44,7 +55,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CalculatorTest">
+  <component name="RunManager" selected="JUnit.CalculatorTest.shouldTriggerBadParamExceptionWithCustomCheck">
     <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaSyntax" />
       <extension name="coverage">
@@ -76,8 +87,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CalculatorTest.shouldTriggerBadParamExceptionWithCustomCheck" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaSyntax" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.aelion.java2012.javasyntax.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fr.aelion.java2012.javasyntax" />
+      <option name="MAIN_CLASS_NAME" value="fr.aelion.java2012.javasyntax.CalculatorTest" />
+      <option name="METHOD_NAME" value="shouldTriggerBadParamExceptionWithCustomCheck" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LambdaTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaSyntax" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.aelion.java2012.javasyntax.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fr.aelion.java2012.javasyntax" />
+      <option name="MAIN_CLASS_NAME" value="fr.aelion.java2012.javasyntax.LambdaTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CalculatorTest.shouldTriggerBadParamExceptionWithCustomCheck" />
+        <item itemvalue="JUnit.LambdaTest.test" />
         <item itemvalue="JUnit.CalculatorTest" />
         <item itemvalue="JUnit.CalculatorTest.addShouldReturnTotal" />
       </list>
@@ -95,5 +140,18 @@
       <updated>1607433390663</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

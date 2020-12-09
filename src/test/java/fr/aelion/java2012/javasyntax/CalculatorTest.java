@@ -1,6 +1,8 @@
 package fr.aelion.java2012.javasyntax;
 
 import fr.aelion.java2012.javasyntax.exceptions.BadParamException;
+import fr.aelion.java2012.javasyntax.utils.CustomCheck;
+import fr.aelion.java2012.javasyntax.utils.PositiveIntCheck;
 import lombok.extern.java.Log;
 import org.junit.jupiter.api.*;
 
@@ -56,5 +58,37 @@ public class CalculatorTest {
     @Test
     @Disabled("not implemented")
     void someOtherTest() {
+    }
+
+    @Test
+    void shouldTriggerBadParamExceptionWithCustomCheck() {
+        assertThrows(BadParamException.class, () -> {
+            // cree une classe qui implemente l'interface
+            CustomCheck validator = new PositiveIntCheck();
+            calc.add(1,3, validator);
+
+            calc.add(1,3, new PositiveIntCheck());
+
+            // classe anonyme
+            calc.add(1, 3, new CustomCheck(){
+                @Override
+                public void check(int a) throws BadParamException {
+                    if(a <= 2) throw new BadParamException("param cannot be <= 2");
+                }
+            });
+
+            // lambda
+            calc.add(1, 3, (number) -> {
+                if(number <= 2) throw new BadParamException("param cannot be <= 2");
+            });
+        });
+
+        // assertThrows(class, lambda expression)
+        // lambda expression = fonction anonyme (fonction sans nom, definie a la volée)
+        assertThrows(BadParamException.class, () -> {
+            calc.add(1, 3, (number) -> {
+                if(number <= 2) throw new BadParamException("param cannot be <= 2");
+            });
+        });
     }
 }
